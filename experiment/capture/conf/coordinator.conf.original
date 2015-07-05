@@ -1,0 +1,11 @@
+OUTDIR="/local/thiagoepdc/collect/"
+bin_dir="../lib/"
+
+TARGET_MNT="/local2"
+foreground_input=$TARGET_MNT/"metrology/target/big_file"
+
+background_path=$bin_dir/"background"
+check_path=$bin_dir/"check.sh"
+cpu_freq_path=$bin_dir/"cpu_freq.sh"
+stap_script=$bin_dir/"trace.stp"
+drop_cache_path=$bin_dir/"drop_cache.sh"
